@@ -17,8 +17,13 @@ extends Component {
             SecondComponent / >
             <
             /div >
+            
         )
     }
+
+    componentWillMount() {
+        //debugger;
+        console.log('component will mount');
+    };
+
 }
-
-
