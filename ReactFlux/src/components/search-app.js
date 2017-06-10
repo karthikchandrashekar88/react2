@@ -28,7 +28,7 @@ extends Component {
     }
 
     componentDidMount() {
-        this.searchYoutube('jon snow');
+        this.searchYoutube('interstellar');
     }
 
     onVideoSelect(selectedVideo) {
