@@ -14,12 +14,8 @@ extends Component {
             <label htmlFor = "search" > Search 
             </label> 
             <input id = "search" ref="search"/>
-                <span className="input-group-btn">
-                    <button type="button" 
-                    onClick={(event)=>this.props.onSearchTermChange(this.refs.search.value)}>
-                    Search
-                    </button>
-                </span>
+
+            <button class="btn" onClick={(event)=>this.props.onSearchTermChange(this.refs.search.value)}>Search</button>
             </div > 
             );
     }

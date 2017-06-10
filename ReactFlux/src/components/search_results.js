@@ -12,4 +12,4 @@ const SearchResults = (props) => {
     )
 }
 
-export default SearchResultItem;
+export default SearchResults;

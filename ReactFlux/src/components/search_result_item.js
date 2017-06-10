@@ -3,7 +3,7 @@ import {Component} from 'react';
 
 const SearchResultItem=({item:item})=>
 {
-    
+    console.log('item :',item);
 return(
     <div className="video-list media">
         <div className="media-left">
@@ -18,4 +18,4 @@ return(
 )
 }
 
-export default SearchResultItem;
+export default SearchResultItem

@@ -10,7 +10,7 @@ import {
 import searchActions from '../actions/index';
 import {
     bindActionCreators
-} from redux;
+} from 'redux';
 
 class SearchApp
 extends Component {
@@ -23,12 +23,12 @@ extends Component {
         }
     }
 
-    searchYoutube(searchText) {
-        this.props.searchData(searchText);
+    searchYoutube = (searchText) => {
+        this.props.searchActions(searchText);
     }
 
     componentDidMount() {
-        this.search('amirkhan');
+        this.searchYoutube('jon snow');
     }
 
     onVideoSelect(selectedVideo) {
